@@ -3,4 +3,4 @@ This is a small experimental project for building a game in SFML using C++. I am
 
 This project is primarily built and tested on Linux using the `libsfml-dev` package installed for the SFML library includes. You may have to configure this project manually for it to compile correctly on your system.
 
-Link to the [SFML project](https://www.sfml-dev.org/).
+You can read more about the SFML project [here](https://www.sfml-dev.org/).
