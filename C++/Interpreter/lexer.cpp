@@ -3,18 +3,28 @@
 #include <fstream>
 #include "lexer.h"
 
+char c;
+FILE* input_file;
+
 Lexer::Lexer(std::string &file_name) {
-    char c = 0;
-    FILE* input_file = fopen(file_name.c_str(),"r");
+    input_file = fopen(file_name.c_str(),"r");
     if(input_file == nullptr) {
         std::cout << "[Error] Script " << input_file << " could not be read\n";
-    } else {
-        c = getc(input_file);
-        while(c != EOF) {
-            std::cout << c;
-            c = getc(input_file);
-        }
-        std::cout << "\n";
+        exit(1);
+    } 
+
+    c = getc(input_file);
+    if (c == EOF) {
+        //do something related to eof here?
         fclose(input_file);
     }
+}
+
+char nextChar() {
+    if (c != EOF) {
+        c = getc(input_file);
+    } else {
+        c = EOF;
+    }
+    return c;
 }
