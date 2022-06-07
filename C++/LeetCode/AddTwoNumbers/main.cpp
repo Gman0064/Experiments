@@ -11,7 +11,7 @@ struct ListNode {
 };
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    ListNode* lr;
+    ListNode* lr = new ListNode(0);
 
     int l1_sum = 0;
     int l2_sum = 0;
@@ -40,7 +40,17 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
 
     int final_sum = l1_sum + l2_sum;
 
+    node = lr;
+    lr->val = (final_sum % 10);
+    final_sum /= 10;
 
+    while (final_sum > 0)
+    {
+        ListNode* new_node = new ListNode(final_sum % 10);
+        node->next = new_node;
+        node = node->next;
+        final_sum /= 10;
+    }
 
     return lr;
 }
