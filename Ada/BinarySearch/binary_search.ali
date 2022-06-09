@@ -1,0 +1,77 @@
+V "GNAT Lib v12"
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+
+U binary_search%b	binary_search.adb	0fb8011f NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W util%s		util.ads		util.ali
+
+U binary_search%s	binary_search.ads	73c2eef9 EE NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W util%s		util.ads		util.ali
+
+D ada.ads		20220507063739 76789da1 ada%s
+D a-contai.ads		20220507063739 61e5e089 ada.containers%s
+D a-conhel.ads		20220507063739 20298884 ada.containers.helpers%s
+D a-coinve.ads		20220507063739 0843f47c ada.containers.indefinite_vectors%s
+D a-convec.ads		20220507063739 5d39d84a ada.containers.vectors%s
+D a-except.ads		20220507063739 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20220507063739 bf4f806b ada.finalization%s
+D a-iteint.ads		20220507063739 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20220507063739 119b8fb3 ada.streams%s
+D a-string.ads		20220507063739 90ac6797 ada.strings%s
+D a-sttebu.ads		20220507063739 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220507063739 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220507063739 9eaa38c6 ada.tags%s
+D a-unccon.ads		20220507063739 0e9b276f ada.unchecked_conversion%s
+D binary_search.ads	20220609210007 e4ba78a4 binary_search%s
+D binary_search.adb	20220609210006 7c7aefe6 binary_search%b
+D interfac.ads		20220507063739 edec285f interfaces%s
+D system.ads		20220507063739 a2da961d system%s
+D s-atocou.ads		20220507063739 dc18efc3 system.atomic_counters%s
+D s-exctab.ads		20220507063739 91bef6ef system.exception_table%s
+D s-finmas.ads		20220507063739 bd688734 system.finalization_masters%s
+D s-finroo.ads		20220507063739 4ff27390 system.finalization_root%s
+D s-parame.ads		20220507063739 d494a4a6 system.parameters%s
+D s-putima.ads		20220507063739 4e095881 system.put_images%s
+D s-secsta.ads		20220507063739 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220507063739 df77073e system.soft_links%s
+D s-stache.ads		20220507063739 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20220507063739 1c9580f6 system.standard_library%s
+D s-stoele.ads		20220507063739 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220507063739 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20220507063739 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20220507063739 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20220507063739 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220507063739 fa2a7f59 system.unsigned_types%s
+D unchconv.ads		20220507063739 ca2f9e18 unchecked_conversion%s
+D util.ads		20220609210005 9778965d util%s
+G a e
+G c Z s b [bs binary_search 4 14 none]
+X 4 a-coinve.ads
+60R9*Vector<7|43R9> 15|4r32[36|5] 16|4r32[36|5]
+X 8 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[4|84]>
+X 15 binary_search.ads
+3K9*Binary_Search 8l5 8e18 16|3b14 23l5 23t18
+4V14*BS{integer} 4>17 5>17 6>17 7>17 16|4b14 15s24 18s20 22l9 22t11
+4r17 Nums{4|60R9[36|5]} 16|4b17 10r17 14r17 15r27 18r23
+5i17 Head{integer} 16|4b40 7r21 8r23 8r38 15r33
+6i17 Tail{integer} 16|4b56 7r13 8r31 18r41
+7i17 Target{integer} 16|4b72 10r32 14r32 15r51 18r47
+X 16 binary_search.adb
+5i9 Middle{integer} 8m13 10r22 11r24 14r22 15r39 18r29
+X 36 util.ads
+4K9*Util 15|1w6 1r21 16|1w6 1r21 36|10e9
+5K13*Int_Vec[4|47] 15|4r24 16|4r24
+

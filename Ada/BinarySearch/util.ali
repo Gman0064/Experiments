@@ -1,0 +1,255 @@
+V "GNAT Lib v12"
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U util%s		util.ads		c202ba6b EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+Z ada.containers.generic_array_sort%s
+Z ada.containers.helpers%s  a-conhel.adb	a-conhel.ali
+W ada.containers.indefinite_vectors%s
+W ada.containers.vectors%s
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.ads		a-finali.ali
+Z ada.iterator_interfaces%s
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.unchecked_deallocation%s
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.put_images%s	s-putima.adb		s-putima.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20220507063739 76789da1 ada%s
+D a-contai.ads		20220507063739 61e5e089 ada.containers%s
+D a-cgarso.ads		20220507063739 9129bfa8 ada.containers.generic_array_sort%s
+D a-conhel.ads		20220507063739 20298884 ada.containers.helpers%s
+D a-conhel.adb		20220507063739 fe7a6827 ada.containers.helpers%b
+D a-coinve.ads		20220507063739 0843f47c ada.containers.indefinite_vectors%s
+D a-coinve.adb		20220507063739 683f8918 ada.containers.indefinite_vectors%b
+D a-convec.ads		20220507063739 5d39d84a ada.containers.vectors%s
+D a-convec.adb		20220507063739 81527b1a ada.containers.vectors%b
+D a-except.ads		20220507063739 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20220507063739 bf4f806b ada.finalization%s
+D a-iteint.ads		20220507063739 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20220507063739 119b8fb3 ada.streams%s
+D a-string.ads		20220507063739 90ac6797 ada.strings%s
+D a-sttebu.ads		20220507063739 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220507063739 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220507063739 9eaa38c6 ada.tags%s
+D a-unccon.ads		20220507063739 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20220507063739 c3a8ac65 ada.unchecked_deallocation%s
+D interfac.ads		20220507063739 edec285f interfaces%s
+D i-c.ads		20220507063739 2284bf7c interfaces.c%s
+D system.ads		20220507063739 a2da961d system%s
+D s-atocou.ads		20220507063739 dc18efc3 system.atomic_counters%s
+D s-atocou.adb		20220507063739 6fe685de system.atomic_counters%b
+D s-atopri.ads		20220507063739 1b132436 system.atomic_primitives%s
+D s-exctab.ads		20220507063739 91bef6ef system.exception_table%s
+D s-finmas.ads		20220507063739 bd688734 system.finalization_masters%s
+D s-finroo.ads		20220507063739 4ff27390 system.finalization_root%s
+D s-memory.ads		20220507063739 5b8432d0 system.memory%s
+D s-parame.ads		20220507063739 d494a4a6 system.parameters%s
+D s-putima.ads		20220507063739 4e095881 system.put_images%s
+D s-secsta.ads		20220507063739 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220507063739 df77073e system.soft_links%s
+D s-stache.ads		20220507063739 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20220507063739 1c9580f6 system.standard_library%s
+D s-stalib.adb		20220507063739 eb464a47 system.standard_library%b
+D s-stoele.ads		20220507063739 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220507063739 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20220507063739 e9fa2dd8 system.storage_pools%s
+D s-stposu.ads		20220507063739 e251976f system.storage_pools.subpools%s
+D s-stratt.ads		20220507063739 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20220507063739 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220507063739 fa2a7f59 system.unsigned_types%s
+D unchconv.ads		20220507063739 ca2f9e18 unchecked_conversion%s
+D util.ads		20220609210005 9778965d util%s
+G a e
+G c Z s s [empty util__int_vec 80 13 5_5]
+G c Z s s [has_element util__int_vec 82 13 5_5]
+G c Z s s [Oeq util__int_vec 87 24 5_5]
+G c Z s s [new_vector util__int_vec 89 13 5_5]
+G c Z s s [to_vector util__int_vec 92 13 5_5]
+G c Z s s [to_vector util__int_vec 94 13 5_5]
+G c Z s s [Oconcat util__int_vec 98 13 5_5]
+G c Z s s [Oconcat util__int_vec 100 13 5_5]
+G c Z s s [Oconcat util__int_vec 102 13 5_5]
+G c Z s s [Oconcat util__int_vec 104 13 5_5]
+G c Z s s [capacity util__int_vec 106 13 5_5]
+G c Z s s [reserve_capacity util__int_vec 108 14 5_5]
+G c Z s s [length util__int_vec 112 13 5_5]
+G c Z s s [set_length util__int_vec 114 14 5_5]
+G c Z s s [is_empty util__int_vec 118 13 5_5]
+G c Z s s [clear util__int_vec 120 14 5_5]
+G c Z s s [constant_reference util__int_vec 131 13 5_5]
+G c Z s s [reference util__int_vec 136 13 5_5]
+G c Z s s [constant_reference util__int_vec 141 13 5_5]
+G c Z s s [reference util__int_vec 146 13 5_5]
+G c Z s s [to_cursor util__int_vec 151 13 5_5]
+G c Z s s [to_index util__int_vec 155 13 5_5]
+G c Z s s [element util__int_vec 157 13 5_5]
+G c Z s s [element util__int_vec 161 13 5_5]
+G c Z s s [replace_element util__int_vec 163 14 5_5]
+G c Z s s [replace_element util__int_vec 168 14 5_5]
+G c Z s s [query_element util__int_vec 173 14 5_5]
+G c Z s s [query_element util__int_vec 178 14 5_5]
+G c Z s s [update_element util__int_vec 182 14 5_5]
+G c Z s s [update_element util__int_vec 187 14 5_5]
+G c Z s s [assign util__int_vec 192 14 5_5]
+G c Z s s [copy util__int_vec 194 13 5_5]
+G c Z s s [move util__int_vec 196 14 5_5]
+G c Z s s [insert_vector util__int_vec 198 14 5_5]
+G c Z s s [insert_vector util__int_vec 209 14 5_5]
+G c Z s s [insert_vector util__int_vec 220 14 5_5]
+G c Z s s [insert util__int_vec 233 14 5_5]
+G c Z s s [insert util__int_vec 239 14 5_5]
+G c Z s s [insert util__int_vec 245 14 5_5]
+G c Z s s [prepend_vector util__int_vec 252 14 5_5]
+G c Z s s [prepend util__int_vec 261 14 5_5]
+G c Z s s [append_vector util__int_vec 266 14 5_5]
+G c Z s s [append util__int_vec 275 14 5_5]
+G c Z s s [append util__int_vec 280 14 5_5]
+G c Z s s [insert_space util__int_vec 283 14 5_5]
+G c Z s s [insert_space util__int_vec 288 14 5_5]
+G c Z s s [delete util__int_vec 294 14 5_5]
+G c Z s s [delete util__int_vec 299 14 5_5]
+G c Z s s [delete_first util__int_vec 304 14 5_5]
+G c Z s s [delete_last util__int_vec 308 14 5_5]
+G c Z s s [reverse_elements util__int_vec 312 14 5_5]
+G c Z s s [swap util__int_vec 314 14 5_5]
+G c Z s s [swap util__int_vec 316 14 5_5]
+G c Z s s [first_index util__int_vec 318 13 5_5]
+G c Z s s [first util__int_vec 320 13 5_5]
+G c Z s s [first_element util__int_vec 322 13 5_5]
+G c Z s s [last_index util__int_vec 324 13 5_5]
+G c Z s s [last util__int_vec 326 13 5_5]
+G c Z s s [last_element util__int_vec 328 13 5_5]
+G c Z s s [next util__int_vec 330 13 5_5]
+G c Z s s [next util__int_vec 332 14 5_5]
+G c Z s s [previous util__int_vec 334 13 5_5]
+G c Z s s [previous util__int_vec 336 14 5_5]
+G c Z s s [find_index util__int_vec 338 13 5_5]
+G c Z s s [find util__int_vec 343 13 5_5]
+G c Z s s [reverse_find_index util__int_vec 348 13 5_5]
+G c Z s s [reverse_find util__int_vec 353 13 5_5]
+G c Z s s [contains util__int_vec 358 13 5_5]
+G c Z s s [iterate util__int_vec 362 14 5_5]
+G c Z s s [iterate util__int_vec 366 13 5_5]
+G c Z s s [iterate util__int_vec 369 13 5_5]
+G c Z s s [reverse_iterate util__int_vec 374 14 5_5]
+G c Z s s [adjust util__int_vec__implementation 90 28 407_4_5_5]
+G c Z s s [finalize util__int_vec__implementation 93 28 407_4_5_5]
+G c Z s s [zero_counts util__int_vec__implementation 96 17 407_4_5_5]
+G c Z s s [busy util__int_vec__implementation 100 17 407_4_5_5]
+G c Z s s [unbusy util__int_vec__implementation 104 17 407_4_5_5]
+G c Z s s [lock util__int_vec__implementation 108 17 407_4_5_5]
+G c Z s s [unlock util__int_vec__implementation 112 17 407_4_5_5]
+G c Z s s [tc_check util__int_vec__implementation 116 17 407_4_5_5]
+G c Z s s [te_check util__int_vec__implementation 120 17 407_4_5_5]
+G c Z s s [initialize util__int_vec__implementation 139 28 407_4_5_5]
+G c Z s s [finalize util__int_vec__implementation 140 28 407_4_5_5]
+G c Z s s [initialize util__int_vec__implementation 145 28 407_4_5_5]
+G c Z s s [finalize util__int_vec__implementation 146 28 407_4_5_5]
+G c Z s s [reference_control_typeDA util__int_vec__implementation 84 12 407_4_5_5]
+G c Z s s [reference_control_typeDF util__int_vec__implementation 84 12 407_4_5_5]
+G c Z s s [reference_control_typeIP util__int_vec__implementation 84 12 407_4_5_5]
+G c Z s s [with_busyDF util__int_vec__implementation 136 12 407_4_5_5]
+G c Z s s [with_busyIP util__int_vec__implementation 136 12 407_4_5_5]
+G c Z s s [with_lockDF util__int_vec__implementation 142 12 407_4_5_5]
+G c Z s s [with_lockIP util__int_vec__implementation 142 12 407_4_5_5]
+G c Z s s [put_image util__int_vec 430 14 5_5]
+G c Z s s [adjust util__int_vec 433 25 5_5]
+G c Z s s [finalize util__int_vec 434 25 5_5]
+G c Z s s [write util__int_vec 436 14 5_5]
+G c Z s s [read util__int_vec 442 14 5_5]
+G c Z s s [read util__int_vec 456 14 5_5]
+G c Z s s [write util__int_vec 462 14 5_5]
+G c Z s s [write util__int_vec 481 14 5_5]
+G c Z s s [read util__int_vec 487 14 5_5]
+G c Z s s [write util__int_vec 503 14 5_5]
+G c Z s s [read util__int_vec 509 14 5_5]
+G c Z s s [pseudo_reference util__int_vec 520 13 5_5]
+G c Z s s [get_element_access util__int_vec 527 13 5_5]
+G c Z s s [cursorIP util__int_vec 451 9 5_5]
+G c Z s s [vectorDA util__int_vec 424 9 5_5]
+G c Z s s [vectorDF util__int_vec 424 9 5_5]
+G c Z s s [vectorIP util__int_vec 424 9 5_5]
+G c Z s s [constant_reference_typeDI util__int_vec 471 9 5_5]
+G c Z s s [constant_reference_typeDA util__int_vec 471 9 5_5]
+G c Z s s [constant_reference_typeDF util__int_vec 471 9 5_5]
+G c Z s s [constant_reference_typeIP util__int_vec 471 9 5_5]
+G c Z s s [reference_typeDI util__int_vec 493 9 5_5]
+G c Z s s [reference_typeDA util__int_vec 493 9 5_5]
+G c Z s s [reference_typeDF util__int_vec 493 9 5_5]
+G c Z s s [reference_typeIP util__int_vec 493 9 5_5]
+G c Z s s [finalize util__int_vec 543 25 5_5]
+G c Z s s [first util__int_vec 545 24 5_5]
+G c Z s s [last util__int_vec 546 24 5_5]
+G c Z s s [next util__int_vec 548 24 5_5]
+G c Z s s [previous util__int_vec 552 24 5_5]
+G c Z s s [elements_arrayIP util__int_vec 412 9 5_5]
+G c Z s s [elements_typeIP util__int_vec 415 9 5_5]
+G c Z s s [iteratorDF util__int_vec 535 9 5_5]
+G c Z s s [iteratorIP util__int_vec 535 9 5_5]
+G c Z s s [free util__int_vec 44 14 5_5]
+G c Z s s [free util__int_vec 47 14 5_5]
+G c Z s s [append_slow_path util__int_vec 50 14 5_5]
+X 1 ada.ads
+16K9*Ada 20e8 45|1r6 2r6 5r28
+X 2 a-contai.ads
+16K13*Containers 28e19 45|1r10 2r10 5r32
+X 6 a-coinve.ads
+42I9 Index_Type 45|6r14
+43+9 Element_Type 45|7r13
+47k24*Indefinite_Vectors 556e38 45|2w21 5r43
+60R9*Vector<11|43R9> 45|9r22[5]
+X 8 a-convec.ads
+74k24*Vectors 875e27 45|1w21
+X 12 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[8|119]>
+X 22 system.ads
+67M9*Address
+X 29 s-memory.ads
+51V13*Alloc{22|67M9} 101i<c,__gnat_malloc>22
+66U14*Free 102i<c,__gnat_free>22
+74V13*Realloc{22|67M9} 103i<c,__gnat_realloc>22
+X 36 s-stalib.adb
+87U14 Break_Start 88i<c,__gnat_break_start>22
+X 45 util.ads
+4K9*Util 10l5 10e9
+5K13*Int_Vec[6|47] 9r14
+

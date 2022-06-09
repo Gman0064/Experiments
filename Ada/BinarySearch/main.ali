@@ -1,0 +1,95 @@
+V "GNAT Lib v12"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_DEFAULT_INITIALIZATION
+
+U main%b		main.adb		cb9df14d NE OO SU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W binary_search%s	binary_search.adb	binary_search.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+W util%s		util.ads		util.ali
+
+D ada.ads		20220507063739 76789da1 ada%s
+D a-contai.ads		20220507063739 61e5e089 ada.containers%s
+D a-conhel.ads		20220507063739 20298884 ada.containers.helpers%s
+D a-coinve.ads		20220507063739 0843f47c ada.containers.indefinite_vectors%s
+D a-convec.ads		20220507063739 5d39d84a ada.containers.vectors%s
+D a-except.ads		20220507063739 2a7d8d70 ada.exceptions%s
+D a-finali.ads		20220507063739 bf4f806b ada.finalization%s
+D a-ioexce.ads		20220507063739 40018c65 ada.io_exceptions%s
+D a-iteint.ads		20220507063739 49a8bee2 ada.iterator_interfaces%s
+D a-stream.ads		20220507063739 119b8fb3 ada.streams%s
+D a-string.ads		20220507063739 90ac6797 ada.strings%s
+D a-sttebu.ads		20220507063739 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20220507063739 33c54060 ada.strings.utf_encoding%s
+D a-tags.ads		20220507063739 9eaa38c6 ada.tags%s
+D a-textio.ads		20220507063739 deada98a ada.text_io%s
+D a-unccon.ads		20220507063739 0e9b276f ada.unchecked_conversion%s
+D binary_search.ads	20220609210007 e4ba78a4 binary_search%s
+D interfac.ads		20220507063739 edec285f interfaces%s
+D i-cstrea.ads		20220507063739 e53d8b8e interfaces.c_streams%s
+D main.adb		20220609211741 66f2b63e main%b
+D system.ads		20220507063739 a2da961d system%s
+D s-atocou.ads		20220507063739 dc18efc3 system.atomic_counters%s
+D s-crtl.ads		20220507063739 8a0692f8 system.crtl%s
+D s-exctab.ads		20220507063739 91bef6ef system.exception_table%s
+D s-ficobl.ads		20220507063739 dc5161d4 system.file_control_block%s
+D s-finmas.ads		20220507063739 bd688734 system.finalization_masters%s
+D s-finroo.ads		20220507063739 4ff27390 system.finalization_root%s
+D s-imagei.ads		20220507063739 0d3f86a7 system.image_i%s
+D s-imgint.ads		20220507063739 bdb6f5ec system.img_int%s
+D s-parame.ads		20220507063739 d494a4a6 system.parameters%s
+D s-putima.ads		20220507063739 4e095881 system.put_images%s
+D s-secsta.ads		20220507063739 62cd9202 system.secondary_stack%s
+D s-soflin.ads		20220507063739 df77073e system.soft_links%s
+D s-stache.ads		20220507063739 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20220507063739 1c9580f6 system.standard_library%s
+D s-stoele.ads		20220507063739 6d8e1ff4 system.storage_elements%s
+D s-stoele.adb		20220507063739 8f5a9db6 system.storage_elements%b
+D s-stopoo.ads		20220507063739 e9fa2dd8 system.storage_pools%s
+D s-stratt.ads		20220507063739 f7dfd786 system.stream_attributes%s
+D s-traent.ads		20220507063739 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20220507063739 fa2a7f59 system.unsigned_types%s
+D s-wchcon.ads		20220507063739 d9032363 system.wch_con%s
+D unchconv.ads		20220507063739 ca2f9e18 unchecked_conversion%s
+D util.ads		20220609210005 9778965d util%s
+G a e
+G c Z b b [main standard 5 11 none]
+G r c none [main standard 5 11 none] [bs binary_search 4 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 1r29
+X 2 a-contai.ads
+22I9*Count_Type<integer>
+X 4 a-coinve.ads
+60R9*Vector<7|43R9> 20|6r23[44|5]
+112V13*Length{2|22I9} 20|16s40[44|5]
+280U14*Append 20|9s10[44|5] 10s10[44|5] 11s10[44|5] 12s10[44|5] 13s10[44|5]
+. 14s10[44|5]
+X 9 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[5|119]>
+X 15 a-textio.ads
+58K13*Text_IO 727e16 20|1w10 1r33
+507U14*Put_Line 20|18s5
+X 17 binary_search.ads
+3K9*Binary_Search 8e18 20|2w6 2r29
+4V14*BS{integer} 20|16s14
+X 20 main.adb
+5U11*Main 5b11 20l5 20t9
+6r5 Nums{4|60R9[44|5]} 9m5 9r5 10m5 10r5 11m5 11r5 12m5 12r5 13m5 13r5 14m5
+. 14r5 16r18 16r35
+7i5 Index{integer} 16m5 18r15
+X 44 util.ads
+4K9*Util 20|3w6 3r29 44|10e9
+5K13*Int_Vec[4|47] 20|6r15
+
