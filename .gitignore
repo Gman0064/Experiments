@@ -1,0 +1,4 @@
+*.ali
+*.o
+main.o
+main
