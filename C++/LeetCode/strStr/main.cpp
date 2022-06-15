@@ -1,33 +1,23 @@
-//https://leetcode.com/problems/implement-strstr/
-
 #include <iostream>
 
 int strStr(std::string haystack, std::string needle) {
-    //iterate through string, find first char that matches needle[0]
-    //get substring of curser + needle length, and similar substring from haystack
-    //if ==, return cursor, else continue
-
-    if (haystack == needle) {
-        return 0;
-    }
+    int index = -1;
 
     for (int i = 0; i < haystack.length(); i++) {
-        if (haystack.at(i) == needle.at(0)) {
-            std::cout << haystack.substr(i, i + (needle.length() - 2)) << std::endl;
-            if (haystack.substr(i, i + (needle.length() - 2)) == needle) {
-                return i;
+        if (haystack[i] == needle[0]) {
+            std::string segment = haystack.substr(i, needle.length());
+            if (segment == needle) {
+                std::cout << segment << std::endl;
+                index = i;
+                break;
             }
         }
     }
 
-    return -1;
+    return index;
 }
 
 int main() {
-    std::string needle = "aa";
-    std::string haystack = "aaa";
-
-    std::cout << strStr(haystack, needle) << std::endl;
-
+    std::cout << strStr("aaa", "aa") << std::endl;
     return 0;
 }
